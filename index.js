@@ -17,8 +17,7 @@ const client = new tmi.Client({
 const MsgElement       = '<div class="message fade"><div>';
 const MsgAuthorElement = '<div class="message_author"><div>';
 const MsgTextElement   = '<div class="message_text"><div>';
-
-let message_lifetime = 15_000; // (ms) 1 Message lasts 15 seconds.
+const MessageLifeTIme = 15_000; // (ms) 1 Message lasts 15 seconds.
 
 client.connect().catch(console.error);
 client.on('message', (channel, tags, message, self) => {
@@ -94,8 +93,8 @@ client.on('message', (channel, tags, message, self) => {
     msg.toggleClass('fade');
     setTimeout(function(){
         msg.toggleClass('fade');
-    }, message_lifetime);
+    }, MessageLifeTIme);
     setTimeout(function(){
         msg.remove();
-    }, message_lifetime+300);
+    }, MessageLifeTIme+300);
 });
