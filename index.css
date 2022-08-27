@@ -1,5 +1,5 @@
 body {
-    background-color: #0E0E10;
+    background: transparent !important;
 }
 
 .chatbox
@@ -12,13 +12,10 @@ body {
 
 .message
 {
-    background-color: #0E0E1040;
+    background-color: #0E0E1080;
     padding: 0.5em 1em 0.5em 0.5em;
     margin-top: 0.2em;
     left: 0;
-    border-color: #0E0E1060;
-    border-style: solid;
-    border-radius: 0.1em;
     opacity: 1;
     
     /*
@@ -41,7 +38,6 @@ body {
     color: white;
     font-size: 34px;
     font-weight: bolder;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
     -webkit-text-stroke: 0.5px black;
 }
 
@@ -61,7 +57,6 @@ body {
     float: left;
     font-size: 34px;
     font-weight: bolder;
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
     display: flex;
     justify-content: center;
     align-items: center;
