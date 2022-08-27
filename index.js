@@ -11,7 +11,7 @@ const client = new tmi.Client({
         secure: true,
         reconnect: true
     },
-	channels: [ 'enter stream channel here' ]
+	channels: [ 'channel' ] // <-- change this!
 });
 
 const MsgElement       = '<div class="message fade"><div>';
