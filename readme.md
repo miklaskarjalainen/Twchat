@@ -46,6 +46,6 @@ Example:
 ```
 
 ## Licences
-- Rwchat ([WTFPL](./LICENCE))
+- Twchat ([WTFPL](./LICENCE))
 - JQuery ([MIT](https://jquery.org/license/))
 - tmijs ([MIT](https://github.com/tmijs/tmi.js/blob/main/LICENSE))
