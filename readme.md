@@ -1,4 +1,4 @@
-# Rwchat
+# Twchat
 Very simple & customizable twitch chat.  
 <img src="./images/example.gif" alt="drawing" width="500"/>
 
