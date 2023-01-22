@@ -3,7 +3,7 @@ Very simple & customizable twitch chat.
 <img src="./images/example.gif" alt="drawing" width="500"/>
 
 ## Usage
-1. Download Rwchat from the releases category. Extract it to a folder.
+1. Download Twchat from the releases category. Extract it to a folder.
 2. Change the channel in 'index.js'
 ```javascript
 const client = new tmi.Client({
